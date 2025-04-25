@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # Load Data
 st.title("Titanic Dataset Logistic Regression Analysis")
 
-train_data = pd.read_csv(""C:\\Users\\saibh\\OneDrive\\Documents\\EXCELR\\ASSIGNMENTS DATA SETS\\Logistic Regression\\Titanic_train.csv"")
+train_data = pd.read_csv("C:\\Users\\saibh\\OneDrive\\Documents\\EXCELR\\ASSIGNMENTS DATA SETS\\Logistic Regression\\Titanic_train.csv")
 test_data = pd.read_csv("C:\\Users\\saibh\\OneDrive\\Documents\EXCELR\\ASSIGNMENTS DATA SETS\\Logistic Regression\\Titanic_test.csv")
 
 st.subheader("Dataset Shapes")

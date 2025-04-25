@@ -1,22 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 24 13:01:17 2020
-
-"""
-
-import streamlit as st # type: ignore
-import pandas as pd # type: ignore
-import numpy as np # type: ignore
-import matplotlib.pyplot as plt # type: ignore
-import seaborn as sns # type: ignore
-from sklearn.model_selection import train_test_split # type: ignore
-from sklearn.linear_model import LogisticRegression # type: ignore
-from sklearn.metrics import accuracy_score, classification_report # type: ignore
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
 
 # Load Data
 st.title("Titanic Dataset Logistic Regression Analysis")
 
-train_data = pd.read_csv("C:\\Users\\saibh\\OneDrive\\Documents\\EXCELR\\ASSIGNMENTS DATA SETS\\Logistic Regression\\Titanic_train.csv")
+train_data = pd.read_csv(""C:\\Users\\saibh\\OneDrive\\Documents\\EXCELR\\ASSIGNMENTS DATA SETS\\Logistic Regression\\Titanic_train.csv"")
 test_data = pd.read_csv("C:\\Users\\saibh\\OneDrive\\Documents\EXCELR\\ASSIGNMENTS DATA SETS\\Logistic Regression\\Titanic_test.csv")
 
 st.subheader("Dataset Shapes")
